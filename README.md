@@ -1,3 +1,7 @@
+Compilation tips on Windows:
+https://blog.csdn.net/cuihaolong/article/details/72842026
+https://www.cnblogs.com/bigeo/p/13446746.html
+
 Triangle
 ========
 
