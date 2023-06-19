@@ -248,6 +248,21 @@
 /*                                                                           */
 /*****************************************************************************/
 
+//Added by me, reference: https://www.cnblogs.com/bigeo/p/13446746.html
+
+#ifndef _TRIANGLE_HEADER_
+#define _TRIANGLE_HEADER_
+
+#ifdef _cplusplus
+extern "C"{
+#endif
+
+#define REAL double
+#define ANSI_DECLARATORS
+#define VOID int
+
+
+
 struct triangulateio {
   REAL *pointlist;                                               /* In / out */
   REAL *pointattributelist;                                      /* In / out */
@@ -287,3 +302,9 @@ void trifree(VOID *memptr);
 void triangulate();
 void trifree();
 #endif /* not ANSI_DECLARATORS */
+
+#ifdef _cplusplus
+}
+#endif // _cplusplus
+
+#endif //_TRIANGLE_HEADER_
